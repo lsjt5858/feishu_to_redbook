@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "飞书转小红书格式",
+  "version": "1.0.0",
+  "description": "将飞书文档内容转换为小红书格式",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

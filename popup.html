@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>飞书转小红书</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📝 飞书转小红书</h1>
+    <div class="section">
+      <button id="convertBtn" class="btn btn-primary">转换当前页面</button>
+    </div>
+    <div class="section">
+      <label for="preview">预览结果：</label>
+      <textarea id="preview" readonly placeholder="转换后的内容将显示在这里..."></textarea>
+    </div>
+    <div class="section">
+      <button id="copyBtn" class="btn btn-secondary" disabled>复制到剪贴板</button>
+    </div>
+    <div id="status" class="status"></div>
+    <div class="section">
+      <label for="logs">调试日志：</label>
+      <textarea id="logs" readonly placeholder="日志信息将显示在这里..."></textarea>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
